@@ -24,9 +24,9 @@ From scroll.awk:
 
 Examples included for ping (pingraph) and BSD-flavored netstat (graph).
 
-![Alt text](pingraph.png?raw=true "pingraph running on linux")
+![Alt text](Graphics/pingraph.png?raw=true "pingraph running on linux")
 
-![Alt text](idlegraph.PNG?raw=true "idlegraph running on linux")
+![Alt text](Graphics/idlegraph.PNG?raw=true "idlegraph running on linux")
 
 Also working on a round speedometer type plot, as seen in speedo.awk
 
