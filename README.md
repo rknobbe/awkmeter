@@ -11,4 +11,6 @@ Identifies Min, Max, and Average values over the plotted area.
 
 Examples included for ping (pingraph) and BSD-flavored netstat (graph).
 
+![Alt text](pingraph.png?raw=true "pingraph running on linux")
+
 Also working on a round speedometer type plot, as seen in speedo.awk
