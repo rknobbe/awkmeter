@@ -1,0 +1,3 @@
+#!/bin/sh
+trap "tput cnorm; exit" SIGINT
+vmstat 3 | awk -f speedo.awk -v f=15 -v m=100 -v q=0
