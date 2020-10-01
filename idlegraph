@@ -1,0 +1,3 @@
+#!/bin/sh
+trap "tput cnorm; exit" SIGINT
+vmstat 3 | awk -f scroll.awk -v f=15 -v h="id" -v q=0

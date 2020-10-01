@@ -1,0 +1,6 @@
+#!/bin/sh
+#export TERM=vt100
+scroll=`which scroll.awk`
+scroll=./scroll.awk
+trap "tput cnorm; exit" SIGINT
+netstat 1 |gawk -f ${scroll} -v f=3  -v h='^[^0-9]*$' -v q=1  -v units=8

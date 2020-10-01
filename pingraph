@@ -1,0 +1,7 @@
+#!/bin/sh
+#export TERM=vt100
+scroll=`which scroll.awk`
+scroll=./scroll.awk
+#trap "tput ve; exit" SIGINT
+trap "tput cnorm; exit" SIGINT
+ping "$*" |stdbuf -i0 -o0 -e0 sed 's/time=//' |awk -f ${scroll} -v f=7  -v q=0  

@@ -14,3 +14,16 @@ Examples included for ping (pingraph) and BSD-flavored netstat (graph).
 ![Alt text](pingraph.png?raw=true "pingraph running on linux")
 
 Also working on a round speedometer type plot, as seen in speedo.awk
+
+From scroll.awk:
+specify f=3 on the command line to parse field 3 of the input
+specify p="foo.*bar" on the command line indicate field 3 lives in lines that
+   match the pattern "foo.*bar"
+specify h="baz.*bimbo" on the command line to indicate the pattern 
+   that matches header strings in the input
+specify q=1 on the command line to supress header
+specify units=8 on the command line to display (say) bits per seconds 
+   instead of bytes per second
+o
+Useful examples in shell scripts graph and pingraph
+
